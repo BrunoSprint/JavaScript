@@ -1,2 +1,2 @@
 
-let java
+let JavaScript
