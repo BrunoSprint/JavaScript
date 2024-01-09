@@ -35,7 +35,7 @@ idade = 36 - 3
 console.log(idade)
 
 
-// exemplo multiplicação
+// exemplo multiplicação.
 
 
 
