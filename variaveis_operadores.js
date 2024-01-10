@@ -96,11 +96,45 @@ console.log("Valor Restante a divisão por 3: " + calculo2)
 
 
 
+//                   Incremento     Decremento
+
+
+let contador = 1 
+// '++'  incremento
+contador++
+contador = contador + 1    // adiciona valor expecifico a variavel.
+contador++  // adiciona o valor  1 há variavel  contador, obs método dinamico.
+
+
+// '--' decremento
+
+contador = contador - 1     //  metódo decremento valor expecifico.
+contador--                  // método decremento valor 1
+
+
+console.log(contador)
+
+
+
+//       Valores de Atribuição.
+
+let preco = 10
+
+preco += 5   
+// Nesta declaração foi atribuido o valor 5, o sinal + antes da atribuição = , 
+// propõem que o valor da variavel seja somado com a nova atribuição. 
+
+preco = preco + 5      //  metodo explicito de atribuição.
+
+console.log(preco)
 
 
 
 
+//     Expressões Matematicas         ESCOPO
 
 
+let resultado = (2 * (5 + 5)  - 10)        // Declaração de escopo, prioriza a prioridade de execução
 
+console.log(resultado)
 
