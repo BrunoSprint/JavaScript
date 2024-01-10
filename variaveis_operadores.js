@@ -32,11 +32,71 @@ console.log("Valor da Variavel-" + idade)   // neste ex: mostra a concatenação
 // exemplo subtração
 
 idade = 36 - 3
-console.log(idade)
+console.log("Operação de Subtração " + idade)
+
+
+let codigoDoProduto = 1023
+let codigoExato = codigoDoProduto - 1000
+console.log(codigoExato)
+
+
+let primeiroNumero = 1023
+let segundoNumero = 22
+console.log(primeiroNumero - segundoNumero)
+
+console.log(1000 - 58)
+
+
 
 
 // exemplo multiplicação.
 
+let precoProduto = 100.99
+let valorComTaxa = precoProduto * 2
+console.log(valorComTaxa)
 
 
-//pausa aula trabalhando com operadores aritimeticos, de logica de programação 7.05
+let multiplicador = 4
+let multiplicando = 12
+let produto = multiplicador * multiplicando
+console.log("Resultado da Multiplicação é: " + produto)
+
+//  let só deve ser usado na primeira vez q a vaariavel for declarada no código.
+
+
+multiplicador = 8
+produto = multiplicador * multiplicando
+console.log("Resultado da Multiplicação é: " + produto)
+
+
+
+
+// Exemplo Divisão
+
+
+let notaDoMercado = 50
+let pessoasParaDividir = 2
+console.log("Resultado Operação de Divisão " + notaDoMercado / pessoasParaDividir)
+
+
+notaDoMercado = 50
+pessoasParaDividir = 3
+console.log("Resultado Operação de Divisão " + notaDoMercado / pessoasParaDividir)
+
+
+let calculo = 10 / 3
+console.log(calculo)
+
+
+
+// Neste exemplo o resultado será o valor restante da divisão. é usado o sinal de "módulo" %
+let calculo2 = 10 % 3
+console.log("Valor Restante a divisão por 3: " + calculo2)
+
+
+
+
+
+
+
+
