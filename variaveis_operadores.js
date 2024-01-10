@@ -100,3 +100,7 @@ console.log("Valor Restante a divisão por 3: " + calculo2)
 
 
 
+
+
+
+
