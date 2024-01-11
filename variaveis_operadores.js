@@ -1,25 +1,31 @@
 console.log('Orientação em JavaScrip')
+=================================================================================================================================================
+// = valor de atribuição    VALOR x VARIAVÉL
 
-
-let variavel = 10;       // = valor de atribuição    VALORxVARIAVÉL
+let variavel = 10;       
 console.log(variavel)
 
 variavel = 20 + 10;
 console.log(variavel)
 
 
+=================================================================================================================================================
+
 const pi = 3.14;         // usa-se . em valores Flutuantes
 console.log(pi)
 
 
-// Simbolos ultilizados para definir operadores aritiméticos:
-//. + . - . * . / . % ."mais-menos-vezes-dividir-porcentagem"
+=================================================================================================================================================
+
+
  
-
-
+/* Simbolos ultilizados para definir operadores aritiméticos:
+ . + . - . * . / . % ."mais-menos-vezes-dividir-porcentagem" */
+ 
 // Operadores Lógicos: soma+ | subtração- | multiplicação * | divisão / | porcentagem % |
 
 
+=================================================================================================================================================
 
 // exemplo soma
 let idade = 30
@@ -29,6 +35,8 @@ console.log("Valor da Variavel-" + idade)   // neste ex: mostra a concatenação
 
 
 
+=================================================================================================================================================
+ 
 // exemplo subtração
 
 idade = 36 - 3
@@ -48,6 +56,7 @@ console.log(1000 - 58)
 
 
 
+=================================================================================================================================================
 
 // exemplo multiplicação.
 
@@ -70,6 +79,7 @@ console.log("Resultado da Multiplicação é: " + produto)
 
 
 
+=================================================================================================================================================
 
 // Exemplo Divisão
 
@@ -88,12 +98,14 @@ let calculo = 10 / 3
 console.log(calculo)
 
 
+=================================================================================================================================================
 
 // Neste exemplo o resultado será o valor restante da divisão. é usado o sinal de "módulo" %
 let calculo2 = 10 % 3
 console.log("Valor Restante a divisão por 3: " + calculo2)
 
 
+=================================================================================================================================================
 
 
 //                   Incremento     Decremento
@@ -116,6 +128,9 @@ console.log(contador)
 
 
 
+=================================================================================================================================================
+
+ 
 //       Valores de Atribuição.
 
 let preco = 10
@@ -129,6 +144,7 @@ preco = preco + 5      //  metodo explicito de atribuição.
 console.log(preco)
 
 
+=================================================================================================================================================
 
 
 //     Expressões Matematicas         ESCOPO
